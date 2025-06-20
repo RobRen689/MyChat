@@ -21,7 +21,7 @@ io.on("connection", (socket) => {
         socket.join(client.room);
         console.log(`${socket.name} joined room ${client.room}`);
         socket.emit(
-            "welcome",
+            "hi",
             `Welcome ${socket.name}, currently there are ${getNumberofUsersInRoom(client.room)} clients in room ${client.room} room`
         );
 
