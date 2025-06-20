@@ -1,0 +1,108 @@
+.bigred {
+  font-family:"Courier New";
+  font-style: italic;
+  font-size: xx-large;
+  color: red;
+}
+body { 
+  place-items: unset !important;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .card {
+    margin-left: 0vw;
+    margin-right: 2vw;
+    margin-top: 4vh !important;
+    width: 96vw;
+  } */
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
+ }
+  .textbox {
+    width: 100px;
+    margin-right: 1vh;
+    color: black;
+    background-color: white;
+    height: 25px;
+  }
+  .light {
+    border: solid;
+    width: 4.25rem;
+  }
+  .lamp {
+    height: 3rem;
+    width: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    margin-left: 3vw;
+    margin-bottom: 50vh;
+  }
+  .scenario-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+   .scenario-message {
+    color: white;
+    width: 80%;
+    margin: 2px;
+    padding: 1em;
+    font-size: smaller;
+    font-weight: bold;
+  }
+  .usersList {
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    margin-left: 2vw;
+    box-sizing: border-box;
+    height: calc(70vh);
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  body {
+    place-items: unset !important;
+  }
+  .card {
+    margin-left: 3vw;
+    margin-top: 3vh;
+    width: 90vw;
+  }
+  .card2 {
+    margin-left: 3vw;
+    width: 90vw;
+  }
+  .userBubble {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    position: relative;
+    padding: 2vw;
+    width: 50vw;
+    margin-bottom: -1em;
+    border-radius: 10px;
+    left: -3vw;
+    color: white;
+  }
+  .userBubble2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    position: relative;
+    padding: 2vw;
+    width: 50vw;
+    margin-bottom: -1em;
+    border-radius: 10px;
+    left: 15vh;
+    color: white;
+  }
+}
