@@ -22,7 +22,7 @@ io.on("connection", (socket) => {
         console.log(`${socket.name} joined room ${client.room}`);
         socket.emit(
             "hi",
-            `Welcome ${socket.name}, currently there are ${getNumberofUsersInRoom(client.room)} clients in room ${client.room} room`
+            `Welcome ${socket.name}, currently there are ${getNumberofUsersInRoom(client.room)} clients in room ${client.room}`
         );
 
         socket.to(client.room).emit("newClient", `${socket.name} has joined this room`);
